@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Tip: If a requirements.txt file isn’t present, install them manually as needed.
 
-## Usage
+### Usage
 
 1. Open the notebook:
 ```
@@ -58,3 +58,11 @@ jupyter notebook notebook/RestraurantRecommendation.ipynb
 * Modeling: Train and evaluate recommendation models (e.g., collaborative filtering, content-based).
 
 * Prediction & Submission: Generate your predictions and export them to the submission/ folder.
+
+### Features & Workflow Summary
+Stage              	   Details
+Preprocessing	         Missing-value handling, normalization, encoding
+Feature Engineering	   Incorporating cuisine types, ratings, location, etc.
+Model Development	      Training recommendation logic and validation
+Evaluation	            Using relevant metrics (RMSE, precision at K, recall, etc.)
+Output Submission	      Saving final recommended outputs in proper format for deployment
