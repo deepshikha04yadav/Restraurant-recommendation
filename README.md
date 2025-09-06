@@ -60,9 +60,12 @@ jupyter notebook notebook/RestraurantRecommendation.ipynb
 * Prediction & Submission: Generate your predictions and export them to the submission/ folder.
 
 ### Features & Workflow Summary
-Stage              	   Details
-Preprocessing	         Missing-value handling, normalization, encoding
-Feature Engineering	   Incorporating cuisine types, ratings, location, etc.
-Model Development	      Training recommendation logic and validation
-Evaluation	            Using relevant metrics (RMSE, precision at K, recall, etc.)
-Output Submission	      Saving final recommended outputs in proper format for deployment
+```
+|Stage                 | Details
+|______________________|_______________________________________________________________
+|Preprocessing	       | Missing-value handling, normalization, encoding
+|Feature Engineering   | Incorporating cuisine types, ratings, location, etc.
+|Model Development     | Training recommendation logic and validation
+|Evaluation	           | Using relevant metrics (RMSE, precision at K, recall, etc.)
+|Output Submission	   | Saving final recommended outputs in proper format for deployment
+```
